@@ -1,0 +1,36 @@
+h4{
+    color: blue;
+}
+
+li{
+    list-style: square;
+}
+h2{
+    background-color: cyan;
+    font-size: xx-large;
+    
+}
+a:hover{
+    color: brown;
+}
+li{
+    font-size: medium;
+}
+p{
+    font-size: mediums;
+}
+table,tr ,th , td{
+    border: 2px solid  black;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 10px;
+}
+th{
+    background-color: cornflowerblue;
+}
+td{
+    background-color: darkgray;
+}
+.new{
+    background-color: darkkhaki;
+}

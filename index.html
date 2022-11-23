@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <title>ANIMEPLANET</title>
+    <style>
+      h3{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 40px solid rgb(16, 31, 169);
+        text-align: center;
+        font-size: 50px;
+      }
+      .vedio{
+        border-radius: 10px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">ANIMEPLANET</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Genre
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">RomCom</a></li>
+                <li><a class="dropdown-item" href="#">Comedy</a></li>
+                <li><a class="dropdown-item" href="#">College</a></li>
+                <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">TopCharts</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">LogIn</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Horimiya.jpg" class="d-block w-100" alt="Horimiya" height="500px">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Welcome To AnimePlanet</h2>
+            <p>Enjoy your favourate Anime shows of Every Genre</p>
+            <button class="btn btn-primary">AnimeNews</button>
+            <button class="btn btn-success">UpComing</button>
+            <button class="btn btn-danger">ContinuedSeries</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="code3.jpg" class="d-block w-100" alt="codegeass" height="500px">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Welcome To AnimePlanet</h2>
+            <p>Enjoy your favourate Anime shows of Every Genre</p>
+            <button class="btn btn-primary">AnimeNews</button>
+            <button class="btn btn-success">UpComing</button>
+            <button class="btn btn-danger">ContinuedSeries</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="pokemon-journeys-series-anime-netflix.jpg" class="d-block w-100" alt="pokemon" height="500px">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Welcome To AnimePlanet</h2>
+            <p>Enjoy your favourate Anime shows of Every Genre</p>
+            <button class="btn btn-primary">AnimeNews</button>
+            <button class="btn btn-success">UpComing</button>
+            <button class="btn btn-danger">ContinuedSeries</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Luca.jpg" class="d-block w-100" alt="Luca" height="500px">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Welcome To AnimePlanet</h2>
+            <p>Enjoy your favourate Anime shows of Every Genre</p>
+            <button class="btn btn-primary">AnimeNews</button>
+            <button class="btn btn-success">UpComing</button>
+            <button class="btn btn-danger">ContinuedSeries</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container my-4">
+      <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="career.jpeg" alt="">
+    
+            <h2>Career</h2>
+            <p>As you see animation is all around you have grown yourself by watching animation. Animation which has made you laugh and smile various exciting movies such as Toy Story, Death Note, Cars and many more to say.</p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="Pixar-Logo-Characters.jpg" alt="">
+    
+            <h2>Top Companies</h2>
+            <p>If you are wondering about renumerations than probably you have heard about Warner Bros and Cartoon Network and Disney Channnel. These companies make millions of dollar every year and Japanese Animations make millions in single series.</p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="create.jpeg" alt="">
+    
+            <h2>Your Story</h2>
+            <p>On this website you can put your stories and comics and make your Manga on top list of this website also make sure to give feedback for our website and rate us.</p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+    
+    
+        <!-- START THE FEATURETTES -->
+
+        <h3>New Release</h3>
+    
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+            <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="Luca.jpg" alt="">
+    
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+            <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="codegeass.png" alt="">
+    
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+            <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="Horimiya.jpg" alt="">
+    
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+    
+      <!-- END THE FEATURETTES -->
+    <div class="vedio">
+      <section>
+        <h3>New Trailor</h3>
+             <video src="Pokémon Journeys_ The Series _ Official Trailer.mp4" controls width="33%" poster="pokemon-journeys-series-anime-netflix.jpg"></video>
+             <video src="Code Geass_ Lelouch of the Re;surrection Official Trailer (English Dub).mp4" controls width="33%" poster="codegeass.png"></video>
+             <video src="THE BOSS BABY 2 Official Trailer (2021).mp4" controls width="33%" poster="download.jpeg"></video>
+             <video src="Space Jam_ A New Legacy – Trailer 1.mp4" controls width="33%" poster="space jam.jpg"></video>
+             <video src="Horimiya - Official Trailer 4 (2021) _ English Sub.mp4" controls width="33%" poster="Horimiya.jpg"></video>
+             <video src="Disney and Pixar’s Luca _ Official Trailer _ Disney+.mp4" controls width="33%" poster="Luca.jpg"></video>
+             <video src="Your Name - Trailer [English dubbed].mp4" controls width="33%" poster="your name2.jpg"></video>
+             <video src="Weathering With You [Official English Dub Trailer - GKIDS] - January 15.mp4" controls width="33%" poster="wheather with you.jpg"></video>
+             <video src="HOTEL TRANSYLVANIA 4 Transformania Official Trailer (2021).mp4" controls width="33%" poster="Hotel-Transylvania.jpg"></video>
+      </section>
+    </div>
+
+      
+       <!-- Bottom Feature -->
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="" allowfullscreen></iframe>
+</div>
+    
+      </div>
+    </div>
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <a href="http://gogoanime2.org" target="_blank">
+              <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="Gogoanime.jpg" alt="">
+              </a>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                  </div>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <a href="http://www.cartoonnetworkhq.com" target="_blank">
+              <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="Cartoon.jpg" alt="Cartoon Network">
+              </a>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                  </div>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <a href="http://www.crunchyroll.com" target="_blank">
+              <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="crunchyroll-logo-1164033.jpeg" alt="crunchyroll">
+              </a>
+  
+              <div class="card-body">
+                <p class="card-text">This is a wider with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary" >View</button> -->
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                  </div>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!--<div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+  
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+  
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+  
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+  
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+  
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+  
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!--<main>
+      <section>
+        <h3>New Trailer</h3>
+         <video src="Pokémon Journeys_ The Series _ Official Trailer.mp4" controls width="33%" poster="pokemon-journeys-series-anime-netflix.jpg"></video>
+         <video src="Code Geass_ Lelouch of the Re;surrection Official Trailer (English Dub).mp4" controls width="33%" poster="codegeass.png"></video>
+         <video src="THE BOSS BABY 2 Official Trailer (2021).mp4" controls width="33%" poster="download.jpeg"></video>
+         <video src="Space Jam_ A New Legacy – Trailer 1.mp4" controls width="33%" poster="space jam.jpg"></video>
+         <video src="Horimiya - Official Trailer 4 (2021) _ English Sub.mp4" controls width="33%" poster="Horimiya.jpg"></video>
+         <video src="Disney and Pixar’s Luca _ Official Trailer _ Disney+.mp4" controls width="33%" poster="Luca.jpg"></video>
+    </section>
+    <section>
+      <h3>Top Animation Companies</h3>
+      <a href="https://www.cartoonnetworkhq.com/" target="_blank"><img src="Cartoon.jpg" width="250px" height="150px" alt="Cartoon"></a>
+      <a href="https://www.warnerbros.com/company/divisions/home-entertainment" target="_blank"> <img src="1298778_warnerbros_451761.jpg" alt="WarnerBros" width="250px" height="150px"></a>
+      <a href="https://www.crunchyroll.com/" target="_blank"> <img src="crunchyroll-logo-1164033.jpeg" alt="crunchyroll" width="250px" height="150px"></a>
+      <a href="https://www.funimation.com/" target="_blank"> <img src="funimation_wb2g.jpg" alt="Funimation" width="250px" height="150px"></a>
+      <a href="https://www.netflix.com/browse/genre/7424" target="_blank"> <img src="netflix.jpg" alt="Netflix" width="250px" height="150px"></a>
+      <a href="https://www.nick.com/" target="_blank"> <img src="nickelodeon.jpeg" alt="Nickelodeon" width="250px" height="150px"></a>
+      <a href="https://disneynow.com/all-shows/disney-channel" target="_blank"> <img src="2019_Disney_Channel_logo.svg.png" alt="Disney" width="250px" height="150px"></a>
+      <a href="https://gogoanime2.org/" target="_blank"> <img src="Gogoanime.jpg" alt="Gogoanime" width="250px" height="150px"></a>
+      <a href="https://9anime.vc/" target="_blank"> <img src="9anime.jpg" alt="9anime" width="250px" height="150px"></a>
+      <a href="https://www.pogo.tv/" target="_blank"> <img src="Pogo.png" alt="Pogo" width="250px" height="150px"></a>
+  </section>-->
+    </main>
+
+    <footer class="bd-footer py-5 mt-5 bg-light">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-3 mb-3">
+            <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/" aria-label="Bootstrap">
+              <svg xmlns="#" width="40" height="32" class="d-block me-2" viewBox="0 0 118 94" role="img"><title>AnimePlanet</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
+              <span class="fs-5">AnimePlanet</span>
+            </a>
+            <ul class="list-unstyled small text-muted">
+              <li class="mb-2">Designed and built with all the love in the world by the <a href="#">AnimePlanet team</a> with the help of <a href="#">our contributors</a>.</li>
+              <li class="mb-2">Code licensed <a href="#" target="_blank" rel="license noopener">MIT</a>, docs <a href="#" target="_blank" rel="license noopener">CC BY 3.0</a>.</li>
+              <li class="mb-2">Currently v5.1.3.</li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+            <h5>Links</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="#">Home</a></li>
+              <li class="mb-2"><a href="#">Docs</a></li>
+              <li class="mb-2"><a href="#">Examples</a></li>
+              <li class="mb-2"><a href="#">Themes</a></li>
+              <li class="mb-2"><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2 mb-3">
+            <h5>Guides</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="#">Getting started</a></li>
+              <li class="mb-2"><a href="#">Starter template</a></li>
+              <li class="mb-2"><a href="#">Webpack</a></li>
+              <li class="mb-2"><a href="#">Parcel</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2 mb-3">
+            <h5>Projects</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="#">Bootstrap 5</a></li>
+              <li class="mb-2"><a href="#">Bootstrap 4</a></li>
+              <li class="mb-2"><a href="#">Icons</a></li>
+              <li class="mb-2"><a href="#">RFS</a></li>
+              <li class="mb-2"><a href="#">npm starter</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2 mb-3">
+            <h5>Community</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="#">Issues</a></li>
+              <li class="mb-2"><a href="#">Discussions</a></li>
+              <li class="mb-2"><a href="#">Corporate sponsors</a></li>
+              <li class="mb-2"><a href="#">Open Collective</a></li>
+              <li class="mb-2"><a href="#">Slack</a></li>
+              <li class="mb-2"><a href="#">Stack Overflow</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    --4
+  </body>
+</html>
